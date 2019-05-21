@@ -1,10 +1,10 @@
 <?php
 
 class Inventory {
-    private $products = array();
+    private $products = [];
 
     public function addProduct($product) {
-        array_push($products, $product);
+        array_push($this->products, $product);
     }
 
     public function getProducts() {
